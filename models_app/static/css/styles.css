@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.rectangle-box {
+    width: 700px;
+    height: 300px;
+    background-image: url('/static/images/google.png');
+    background-size: cover;
+    /* This property ensures the image covers the entire container */
+    background-position: center center;
+    /* Center the background image horizontally and vertically */
+    border: 2px solid #ffffff;
+    /* You can change the border color */
+    border-radius: 5px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    overflow: hidden;
+    width: 700px;
+    max-width: 100%;
+}
+
+.search-input {
+    flex: 1;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.search-button {
+    background-color: #4285f4;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.button-container {
+    text-align: center;
+}
+
+.search-btn {
+    background-color: #f9f9f9;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
